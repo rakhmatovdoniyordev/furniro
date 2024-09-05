@@ -1,0 +1,35 @@
+.browse{
+    margin: 55px 0;
+    .browse__text{
+        margin-bottom: 60px;
+        text-align: center;
+        h2{
+            font-size: 32px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .browse__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        text-align: center;
+        .browse__card{
+            .browse__img{
+                margin-bottom: 20px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .browse__title{
+                p{
+                    font-size: 24px;
+                    color: $bg-py;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

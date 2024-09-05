@@ -1,0 +1,69 @@
+.rooms{
+    background: $bg-by;
+    padding: 44px 0;
+    .rooms__wrapper{
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        .rooms__text,
+        .rooms__peace,
+        .owl-carousel{
+            width: 33.33%;
+        }
+        .rooms__text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            h2{
+                font-size: 40px;
+                font-weight: 700;
+                margin-bottom: 8px;
+            }
+            p{
+                font-weight: 500;
+                color: #616161;
+                margin-bottom: 25px;
+            }
+            button{
+                background: #B88E2F;
+                padding: 12px 36px;
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+        .rooms__peace{
+            position: relative;
+            .rooms__pece__content{
+                position: absolute;
+                left: 24px;
+                bottom: 24px;
+                display: flex;
+                align-items: end;
+                .rooms__content{
+                    background: #FFFFFFB8;
+                    padding: 32px 25px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        color: #616161;
+                        font-weight: 500;
+                    }
+                    h2{
+                        font-size: 28px;
+                        font-weight: 600;
+                    }
+                }
+                button{
+                    background: $btn-py;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 12px;
+                }
+            }
+        }
+    }
+}

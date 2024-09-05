@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    position: relative;
+    .navbar__collection{
+        display: flex;
+        gap: 75px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar__icons{
+        display: flex;
+        gap: 45px;
+    }
+}

@@ -1,0 +1,51 @@
+#filter{
+    width: 100%;
+    background: #F9F1E7;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    .filter__wrapper{
+        display: flex;
+        padding: 0 30px;
+        .filter__left{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 23px;
+            flex: 1;
+            div{
+                display: flex;
+                gap: 12px;
+                p{
+                    font-size: 20px;
+                    color: #000;
+                }
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .filter__right{
+            display: flex;
+            gap: 23px;
+            align-items: center;
+            p{
+                font-size: 20px;
+            }
+            .filter__btn{
+                padding: 12px 13px;
+                background-color: #ffff;
+                border: none;
+                color: #9F9F9F;
+                font-size: 20px;
+            }
+            .filter__butt{
+                padding: 12px 86px 12px 30px;
+                color: #9F9F9F;
+                font-size: 20px;
+                background-color: #ffff;
+                border: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    position: relative;
+    &__collection{
+        display: flex;
+        gap: 75px;
+        font-weight: 500;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__icons{
+        display: flex;
+        gap: 45px;
+    }
+}
